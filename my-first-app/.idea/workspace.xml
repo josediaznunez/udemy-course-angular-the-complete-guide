@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7d6fa5d6-0670-46b0-baf7-2009273bfdc5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/server/server.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="my-first-app" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1UgEk580wHsnI2NKcH3YZoV2lBI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../basics-assignment-2-start" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/node_modules/protractor" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/server" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Karma.AppComponent.should render title">
+    <configuration name="AppComponent.should create the app" type="JavaScriptTestRunnerKarma" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/node_modules/@angular/cli" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-names>
+        <test-name value="AppComponent" />
+        <test-name value="should create the app" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="AppComponent.should render title" type="JavaScriptTestRunnerKarma" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/node_modules/@angular/cli" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-names>
+        <test-name value="AppComponent" />
+        <test-name value="should render title" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests (my-first-app)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/node_modules/@angular/cli" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E Tests (my-first-app)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-package value="$PROJECT_DIR$/node_modules/protractor" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Karma.AppComponent.should render title" />
+        <item itemvalue="Karma.AppComponent.should create the app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d6fa5d6-0670-46b0-baf7-2009273bfdc5" name="Default Changelist" comment="" />
+      <created>1575769977732</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575769977732</updated>
+      <workItem from="1575769985819" duration="6891000" />
+      <workItem from="1578279417510" duration="3022000" />
+      <workItem from="1578774924601" duration="2459000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="258" width="530" height="605" key="FileChooserDialogImpl" timestamp="1578282436549">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="690" y="258" width="530" height="605" key="FileChooserDialogImpl/0.34.1920.1046@0.34.1920.1046" timestamp="1578282436549" />
+    <state width="886" height="259" key="GridCell.Tab.0.bottom" timestamp="1575773685219">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state width="886" height="259" key="GridCell.Tab.0.bottom/0.34.1920.1046@0.34.1920.1046" timestamp="1575773685219" />
+    <state width="886" height="259" key="GridCell.Tab.0.center" timestamp="1575773685218">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state width="886" height="259" key="GridCell.Tab.0.center/0.34.1920.1046@0.34.1920.1046" timestamp="1575773685218" />
+    <state width="886" height="259" key="GridCell.Tab.0.left" timestamp="1575773685218">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state width="886" height="259" key="GridCell.Tab.0.left/0.34.1920.1046@0.34.1920.1046" timestamp="1575773685218" />
+    <state width="886" height="259" key="GridCell.Tab.0.right" timestamp="1575773685219">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state width="886" height="259" key="GridCell.Tab.0.right/0.34.1920.1046@0.34.1920.1046" timestamp="1575773685219" />
+    <state width="886" height="259" key="GridCell.Tab.1.bottom" timestamp="1575773685220">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state width="886" height="259" key="GridCell.Tab.1.bottom/0.34.1920.1046@0.34.1920.1046" timestamp="1575773685220" />
+    <state width="886" height="259" key="GridCell.Tab.1.center" timestamp="1575773685219">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state width="886" height="259" key="GridCell.Tab.1.center/0.34.1920.1046@0.34.1920.1046" timestamp="1575773685219" />
+    <state width="886" height="259" key="GridCell.Tab.1.left" timestamp="1575773685219">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state width="886" height="259" key="GridCell.Tab.1.left/0.34.1920.1046@0.34.1920.1046" timestamp="1575773685219" />
+    <state width="886" height="259" key="GridCell.Tab.1.right" timestamp="1575773685219">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state width="886" height="259" key="GridCell.Tab.1.right/0.34.1920.1046@0.34.1920.1046" timestamp="1575773685219" />
+    <state width="886" height="259" key="GridCell.Tab.4.bottom" timestamp="1575772868452">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state width="886" height="259" key="GridCell.Tab.4.bottom/0.34.1920.1046@0.34.1920.1046" timestamp="1575772868452" />
+    <state width="886" height="259" key="GridCell.Tab.4.center" timestamp="1575772868451">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state width="886" height="259" key="GridCell.Tab.4.center/0.34.1920.1046@0.34.1920.1046" timestamp="1575772868451" />
+    <state width="886" height="259" key="GridCell.Tab.4.left" timestamp="1575772868450">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state width="886" height="259" key="GridCell.Tab.4.left/0.34.1920.1046@0.34.1920.1046" timestamp="1575772868450" />
+    <state width="886" height="259" key="GridCell.Tab.4.right" timestamp="1575772868451">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state width="886" height="259" key="GridCell.Tab.4.right/0.34.1920.1046@0.34.1920.1046" timestamp="1575772868451" />
+    <state x="1019" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1578279436505">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="1019" y="45" width="840" height="1034" key="search.everywhere.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1578279436505" />
+  </component>
+</project>
