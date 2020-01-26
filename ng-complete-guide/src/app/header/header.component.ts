@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, EventEmitter, Output} from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,4 +7,14 @@ import {Component} from '@angular/core';
 export class HeaderComponent {
   collapsed = true;
 
+  @Output()
+  currentView = new EventEmitter<string>();
+
+  onRecipesClicked() {
+    this.currentView.emit('recipes');
+  }
+
+  onShoppingListClicked() {
+    this.currentView.emit('shopping-list');
+  }
 }
