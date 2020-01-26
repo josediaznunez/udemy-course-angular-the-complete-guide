@@ -23,16 +23,15 @@
         (incrementingNumberEvent)="onIncrementedNumberEmitted($event)">
       </app-game-control>
       <div *ngFor="let value of values">
-        <h1>{{value}}</h1>
+        <h1>
+          <strong *ngIf="value % 2 !== 0">
+            <app-odd [valueEmitted]="value"></app-odd>
+          </strong>
 
-        <strong *ngIf="value % 2 !== 0">
-          <app-odd></app-odd>
-        </strong>
-
-        <em *ngIf="value % 2 === 0">
-          <app-even></app-even>
-        </em>
-
+          <em *ngIf="value % 2 === 0">
+            <app-even [valueEmitted]="value"></app-even>
+          </em>
+        </h1>
         <hr>
       </div>
     </div>

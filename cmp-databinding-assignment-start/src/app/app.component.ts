@@ -10,8 +10,8 @@ import {EvenComponent} from './even/even.component';
 export class AppComponent {
   values = [];
 
-  onIncrementedNumberEmitted(eventEmittedByStartGame: { value: number }) {
-    this.values.push(eventEmittedByStartGame.value);
+  onIncrementedNumberEmitted(value) {
+    this.values.push(value);
   }
 
 }

@@ -9,7 +9,7 @@ export class GameControlComponent implements OnInit {
   private counter = 0;
 
   @Output()
-  incrementingNumberEvent = new EventEmitter<{ value: number }>();
+  incrementingNumberEvent = new EventEmitter<number>();
 
   private setIntervalRef: number;
 
@@ -23,9 +23,7 @@ export class GameControlComponent implements OnInit {
     this.setIntervalRef = setInterval(
       () => {
         this.incrementingNumberEvent.emit(
-          {
-            value: this.counter++
-          }
+          this.counter++
         );
       }, 1000);
   }
