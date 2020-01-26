@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  private currentView: string;
+  private loadedFeature = 'recipe';
 
-  currentViewListener(currentView: string) {
-    this.currentView = currentView;
+  onNavigate(feature: string) {
+    this.loadedFeature = feature;
   }
 }

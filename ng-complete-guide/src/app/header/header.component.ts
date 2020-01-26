@@ -7,14 +7,10 @@ import {Component, EventEmitter, Output} from '@angular/core';
 export class HeaderComponent {
   collapsed = true;
 
-  @Output()
-  currentView = new EventEmitter<string>();
+  @Output() featureSelected = new EventEmitter<string>();
 
-  onRecipesClicked() {
-    this.currentView.emit('recipes');
+  onSelect(feature: string) {
+    this.featureSelected.emit(feature);
   }
 
-  onShoppingListClicked() {
-    this.currentView.emit('shopping-list');
-  }
 }
