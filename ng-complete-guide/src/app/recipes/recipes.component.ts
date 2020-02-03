@@ -8,13 +8,13 @@ import {Recipe} from './recipe.model';
 })
 export class RecipesComponent implements OnInit {
 
-  private recipeInComponent: Recipe;
+  private selectedRecipe: Recipe;
 
   constructor() { }
 
   ngOnInit() { }
 
   onRecipeClicked(recipeClicked: Recipe) {
-    this.recipeInComponent = recipeClicked;
+    this.selectedRecipe = recipeClicked;
   }
 }
