@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {AfterViewChecked, Component, OnInit, ViewChild} from '@angular/core';
 import {Ingredient} from '../shared/ingredient.model';
+import {ShoppingEditComponent} from './shopping-edit/shopping-edit.component';
+
 
 @Component({
   selector: 'app-shopping-list',
@@ -16,7 +18,8 @@ export class ShoppingListComponent implements OnInit {
 
   ngOnInit() {}
 
-  addIngredient(addedIngredient: Ingredient) {
-    this.ingredients.push(addedIngredient);
+  onIngredientAdded(ingredientAdded: Ingredient) {
+    this.ingredients.push(ingredientAdded);
   }
+
 }
