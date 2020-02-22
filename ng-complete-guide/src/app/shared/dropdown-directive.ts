@@ -8,8 +8,16 @@ export class DropdownDirective {
 //  class, whenever we click on it or remove it once
 //  we click a second time
 
-  constructor(renderer: Renderer, el: ElementRef) {
-    renderer.setElementClass(el.nativeElement, 'open', true);
+  // @Input()
+  // set appDropdown(condition: boolean) {
+  //   if (condition) {
+  //   } else {
+  //   }
+  // }
+
+  constructor(private renderer: Renderer2, private el: ElementRef) {
+    // renderer.removeElementClass(this.el.nativeElement, 'open', true);
+    this.renderer.addClass(this.el.nativeElement, 'open');
   }
 
 }
