@@ -10,6 +10,8 @@ export class RecipeDetailComponent implements OnInit {
   @Input()
   recipe: Recipe;
 
+  isManageRecipeClicked = false;
+
   constructor() { }
 
   ngOnInit() {
