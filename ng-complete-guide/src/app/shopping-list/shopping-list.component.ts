@@ -9,7 +9,7 @@ import {ShoppingListService} from './shopping-list.service';
   templateUrl: './shopping-list.component.html',
   styleUrls: ['./shopping-list.component.css']
 })
-export class ShoppingListComponent implements OnInit, AfterContentChecked {
+export class ShoppingListComponent implements OnInit {
 
   ingredients: Ingredient[] = [];
 
@@ -18,10 +18,10 @@ export class ShoppingListComponent implements OnInit, AfterContentChecked {
 
   ngOnInit() {
     this.ingredients = this.shoppingListService.getIngredients();
+    this.shoppingListService.ingredientsChanged.subscribe(
+      (ingredients: Ingredient[]) => {
+        this.ingredients = ingredients;
+      }
+    );
   }
-
-  ngAfterContentChecked() {
-    this.ingredients = this.shoppingListService.getIngredients();
-  }
-
 }
