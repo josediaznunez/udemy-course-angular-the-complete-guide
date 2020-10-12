@@ -20,12 +20,13 @@
               type="email" 
               id="email" 
               class="form-control"
-              ngmodel
+              ngModel
               name="email"
               required
-              email>
+              email
+              #email="ngModel">
           </div>
-          <!-- <p *ngIf="">Please enter a valid value!</p> -->
+          <span class="help-block" *ngIf="!email.valid && email.touched">Please enter a valid value!</span>
         </div>
         <div class="form-group">
           <label for="secret">Secret Questions</label>
