@@ -2,9 +2,12 @@ import {Recipe} from './recipe.model';
 import {Injectable} from '@angular/core';
 import {Ingredient} from '../shared/ingredient.model';
 import {ShoppingListService} from '../shopping-list/shopping-list.service';
+import { Subject } from 'rxjs';
 
 @Injectable()
 export class RecipeService {
+
+  recipesChanged = new Subject<Recipe[]>();
 
   private recipes: Recipe[] = [
     new Recipe(
@@ -17,15 +20,15 @@ export class RecipeService {
         new Ingredient('dried guajillo chiles, seeded and torn to pieces', 8),
         new Ingredient('cloves garlic, chopped', 8),
         new Ingredient('teaspoon achiote powder', 1),
-        new Ingredient('teaspoon ground cumin', .5),
+        new Ingredient('teaspoon ground cumin', 1),
         new Ingredient('whole cloves', 5),
         new Ingredient('cup white vinegar', 1),
-        new Ingredient('to taste', .5),
+        new Ingredient('to taste', 1),
         new Ingredient('pounds pork tenderloin, thinly sliced', 2),
-        new Ingredient('cup chopped pineapple', .5),
+        new Ingredient('cup chopped pineapple', 1),
         new Ingredient('(5 inch) corn tortillas', 32),
         new Ingredient('small onion, chopped', 1),
-        new Ingredient('cup chopped fresh cilantro', .5),
+        new Ingredient('cup chopped fresh cilantro', 1),
         new Ingredient('limes, cut in wedges', 4)
       ]
     ),
@@ -38,10 +41,10 @@ export class RecipeService {
         new Ingredient('pounds lean ground beef', 3),
         new Ingredient('ounces blue cheese, crumbled', 4),
         new Ingredient('cup minced fresh chives', .5),
-        new Ingredient('teaspoon hot pepper sauce', .25),
+        new Ingredient('teaspoon hot pepper sauce', 1),
         new Ingredient('teaspoon Worcestershire sauce', 1),
         new Ingredient('teaspoon coarsely ground black pepper', 1),
-        new Ingredient('teaspoons salt', 1.5),
+        new Ingredient('teaspoons salt', 2),
         new Ingredient('teaspoon dry mustard', 1),
         new Ingredient('French rolls or hamburger buns', 12)
       ])
@@ -61,6 +64,16 @@ export class RecipeService {
 
   addIngredientsToShoppingList(ingredients: Ingredient[]) {
     this.slService.addIngredients(ingredients);
+  }
+
+  addRecipe(recipe: Recipe) {
+    this.recipes.push(recipe);
+    this.recipesChanged.next(this.recipes.slice());
+  }
+
+  updateRecipe(index: number, newRecipe: Recipe) {
+    this.recipes[index] = newRecipe;
+    this.recipesChanged.next(this.recipes.slice());
   }
 
 }
