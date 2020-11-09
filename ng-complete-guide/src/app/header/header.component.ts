@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 
-import { DataStorageService } from '../shopping-list/data-storage,service';
+import { DataStorageService } from '../shopping-list/data-storage.service';
 
 @Component({
   selector: 'app-header',
@@ -15,7 +15,7 @@ export class HeaderComponent {
   }
 
   onFetchData() {
-    this.dataStorageService.fetchRecipes();
+    this.dataStorageService.fetchRecipes().subscribe();
   }
 
 }
