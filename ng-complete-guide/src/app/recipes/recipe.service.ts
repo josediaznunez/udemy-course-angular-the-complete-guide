@@ -53,6 +53,11 @@ export class RecipeService {
   constructor(private slService: ShoppingListService) {
   }
 
+  setRecipes(recipes: Recipe[]) {
+    this.recipes = recipes;
+    this.recipesChanged.next(this.recipes.slice());
+  }
+
   getRecipes(): Recipe[] {
     // slice() returns new array/copy
     return this.recipes.slice();
